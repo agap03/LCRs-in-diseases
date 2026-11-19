@@ -1,0 +1,34 @@
+Variants with protein position on MANE Select: 3760971
+  reference residue matches MANE: 3757986 (2985 mismatches - drop these)
+
+Consequences (ref_ok only):
+consequence
+missense             2586817
+synonymous            804401
+frameshift            206072
+nonsense              107328
+inframe_deletion       23991
+inframe_insertion      13601
+delins                  6663
+start_loss              3827
+duplication             3006
+stop_loss               2145
+other                    133
+repeat_change              2
+
+Classification groups (ref_ok only):
+class_group
+VUS            2267101
+B/LB            882090
+P/LP            350119
+conflicting     163980
+other            94696
+
+First look - P/LP missense, >=1 star, ref_ok:
+  SEG_strict        residues in LCRs  0.52% | P/LP in LCRs  0.17% (n=72261) | B/LB in LCRs  0.85% (n=147736)
+  SEG_intermediate  residues in LCRs  2.10% | P/LP in LCRs  2.06% (n=72261) | B/LB in LCRs  3.13% (n=147736)
+  CAST              residues in LCRs 19.81% | P/LP in LCRs 11.78% (n=72261) | B/LB in LCRs 28.37% (n=147736)
+  fLPS_strict       residues in LCRs 17.55% | P/LP in LCRs 19.40% (n=72261) | B/LB in LCRs 21.71% (n=147736)
+
+This is a crude first look across all proteins: the real comparison is
+within proteins (LCR vs rest of the same protein) with a mutability model.

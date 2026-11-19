@@ -1,0 +1,43 @@
+{
+  "name": "",
+  "sequences": "<per batch>",
+  "methods": {
+    "seg_default": false,
+    "seg_intermediate": true,
+    "seg_strict": true,
+    "cast": true,
+    "flps": false,
+    "flps_strict": true,
+    "simple": false,
+    "gbsc": false
+  },
+  "enrichment": {
+    "pfam": false,
+    "phobius": false,
+    "aafrequency": false
+  },
+  "params": {
+    "seg_strict": {},
+    "seg_intermediate": {
+      "window": 15,
+      "k1": 1.9,
+      "k2": 2.5
+    },
+    "cast": {
+      "threshold": 40,
+      "matrix": 1
+    },
+    "flps": {
+      "min_tract_len": 15,
+      "max_tract_len": 500,
+      "pval": 0.001,
+      "regions": {
+        "single": true,
+        "multiple": true,
+        "whole": false
+      }
+    },
+    "simple": {},
+    "gbsc": {}
+  }
+}

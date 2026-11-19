@@ -1,0 +1,2 @@
+Here are stored old results from run_platoloco, which counted possitions from 0, then assumed 1-based counting.
+This problem existed only for SEG.

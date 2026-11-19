@@ -1,0 +1,14 @@
+Analysed proteins: 19229
+
+SEG_strict           2536 merged LCRs (from 2621 raw) in   1852 proteins, 0.52% of residues
+SEG_intermediate     7784 merged LCRs (from 8093 raw) in   4684 proteins, 2.10% of residues
+CAST                13913 merged LCRs (from 18048 raw) in   8852 proteins, 19.81% of residues
+fLPS_strict         72483 merged LCRs (from 99511 raw) in  17077 proteins, 17.55% of residues
+
+Positive controls (known disease repeats):
+  HTT     polyQ: SEG_strict 18-76, SEG_intermediate 18-76, CAST 18-88, fLPS_strict 18-78, fLPS_strict 363-370, fLPS_strict 1443-1465
+  AR      polyQ: SEG_strict 58-91, SEG_intermediate 58-91, CAST 58-121, fLPS_strict 58-91, fLPS_strict 195-199
+  ATXN1   polyQ: SEG_strict 197-226, SEG_intermediate 197-226, CAST 188-226, fLPS_strict 197-225
+  ATXN3   polyQ: SEG_strict 291-305, SEG_intermediate 291-305, fLPS_strict 292-305
+  TBP     polyQ: SEG_strict 55-95, SEG_intermediate 55-112, CAST 53-125, fLPS_strict 55-101
+  PABPN1  polyA: SEG_strict 2-16, SEG_intermediate 2-25, SEG_intermediate 29-44, CAST 2-49

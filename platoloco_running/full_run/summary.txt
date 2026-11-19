@@ -1,0 +1,5 @@
+Merged results written to full_run
+  SEG_strict           2621 regions in   1852 proteins
+  SEG_intermediate     8093 regions in   4684 proteins
+  CAST                18048 regions in   8852 proteins
+  fLPS_strict         99511 regions in  17077 proteins
